@@ -22,4 +22,10 @@ app.get("/places/:id", async (req, res) => {
   return res.status(200).json({ data: body });
 });
 
+app.get("/places", (req, res) => {
+  return res
+    .status(200)
+    .json({ places: ["GXvPAor1ifNfpF0U5PTG0w", "ohGSnJtMIC5nPfYRi_HTAg"] });
+});
+
 module.exports = app;

@@ -1,0 +1,14 @@
+#OpeningHours {
+  max-width: 300px;
+}
+
+#OpeningHours li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+
+#OpeningHours li p {
+  line-height: 0.8;
+}
