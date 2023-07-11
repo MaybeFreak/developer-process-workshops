@@ -18,7 +18,6 @@ app.get("/places/:id", async (req, res) => {
   body.address = data.addresses[0].where;
   body.openingHours = data.opening_hours;
 
-  console.log(body);
   return res.status(200).json({ data: body });
 });
 
